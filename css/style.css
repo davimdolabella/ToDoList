@@ -11,15 +11,11 @@ html,body{
 
 section.todolist{
     margin: 0 auto;
+    padding: 2%;
     max-width: 500px;
     max-height: 500px;
 }
-.todolist h2{
-    margin: 30px;
-    font-size: 30px;
-    color:rgb(66, 66, 66);
-    text-align: center;
-}
+
 .todolist .add{
     width: 100%;
     height: 30px;
