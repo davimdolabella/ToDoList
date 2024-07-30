@@ -35,7 +35,7 @@ window.onload = function (){
                     edit_task[i].style.display = "block";
                     edit_task[i].focus();
                     task[i].style.display = "none";
-                    pencil[i].style.backgroundImage = "url('/img/check.png')";
+                    pencil[i].style.backgroundImage = "url('./img/check.png')";
                     pencil_test = true;
                     
                 }else{
@@ -81,8 +81,8 @@ window.onload = function (){
                     <input type="text" class="edit_task">
                     <p class="task">${task_cut}</p>
                     <div class="buttons">
-                        <div class="trash" style="background-image: url(/img/excluir.png);"></div>
-                        <div class="pencil" style="background-image: url(/img/circulo.png);"></div>
+                        <div class="trash" style="background-image: url(./img/excluir.png);"></div>
+                        <div class="pencil" style="background-image: url(./img/circulo.png);"></div>
                     </div>
             ` 
         })
