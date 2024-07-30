@@ -1,7 +1,7 @@
 window.onload = function (){
     var itens = [
         {
-            name: 'Exemple',
+            name: 'Walk',
             check: false
         }
     ]
