@@ -83,10 +83,11 @@ section.todolist{
     font-size: 23px;
     color: rgb(66, 66, 66);
     left: 10px;
-    width: 250px;
+    width: 70%;
     height: 30px;
     display: none;
     outline: 0;
+    margin-right: 10px;
 
 }
 .single p{
